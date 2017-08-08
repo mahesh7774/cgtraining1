@@ -13,5 +13,5 @@ public interface AcccountService {
 	
 	public Account withdraw(int accountNo, double amount)throws InsufficientBalanceException;
 	public Account deposit(int accountNo, double amount);
-	public int addNumbers(int num1,int num2);
+	public int addNumbers(int num2,int num1);
 }
