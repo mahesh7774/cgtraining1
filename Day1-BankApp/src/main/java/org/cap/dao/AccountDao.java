@@ -5,7 +5,7 @@ import org.cap.dto.Customer;
 
 public interface AccountDao {
 	
-	public boolean createAccount(Account account);
+	public boolean createAccount(Account account1);
 	
 	public Account findAccountById(int accountNo);
 	
